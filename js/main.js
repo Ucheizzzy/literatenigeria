@@ -182,12 +182,12 @@ navBtn.addEventListener('click', function (e) {
   //   console.log(e.target.dataset.id)
   const id = e.target.dataset.id
   if (id === 'who' && active) {
-    document.getElementById('showImage').src = './img/post-2.jpg'
+    document.getElementById('showImage').src = './img/about/room 1.png'
   }
   if (id === 'mission' && active) {
-    document.getElementById('showImage').src = './img/about.jpg'
+    document.getElementById('showImage').src = './img/about/about.jpg'
   }
   if (id === 'vision' && active) {
-    document.getElementById('showImage').src = './img/post-4.jpg'
+    document.getElementById('showImage').src = './img/about/vision 4.png'
   }
 })
